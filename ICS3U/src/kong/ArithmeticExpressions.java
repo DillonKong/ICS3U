@@ -10,9 +10,11 @@ public class ArithmeticExpressions {
 	 */
 	public static void main(String[] args) {
 		
+		//setup scanner
 		@SuppressWarnings("resource")
 		Scanner scan = new Scanner (System.in);
 		
+		//Input of the 5 numbers from user
 		System.out.println("Please input your first number");
 		int numberOne = Integer.parseInt(scan.nextLine());
 		System.out.println("Please input your second number");
@@ -44,8 +46,8 @@ public class ArithmeticExpressions {
 		int equationFive = numberFour % numberTwo ;
 		System.out.print("5) The remainder of the forth and scond number when divided = ");
 		System.out.println(equationFive);
-		int equationSix = numberThree ^ numberOne;
 		
+		int equationSix = numberThree ^ numberOne;
 		System.out.print("6) First number to the power of the third number = ");
 		System.out.println(equationSix);
 		
