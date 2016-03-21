@@ -24,23 +24,35 @@ public class QuadraticEquation {
 		int b = Integer.parseInt(scan.nextLine());
 		System.out.println ("What is the value of c?");
 		int c = Integer.parseInt(scan.nextLine());
-		
+
 		// Root one; with addition
 		answerOne = b * b - (4 * a * c );
 		answerOne = Math.sqrt(answerOne);
 		answerOne = (b * -1) + answerOne;
 		answerOne = answerOne / (2 * a);
-		
+
 		//Root two; with subtraction
 		answerTwo = b * b - (4 * a * c );
 		answerTwo = Math.sqrt(answerTwo);
 		answerTwo = (b * -1) - answerTwo;
 		answerTwo = answerTwo / (2 * a);
 		
-		//Output roots to the tenth decimal places
-		System.out.println("The first root is = " + df.format(answerOne));
-		System.out.println("The second root is = " + df.format(answerTwo));
-		
+		//Checks roots 
+		if ((Math.pow (b,2) - (4 * a * c)) > 0 )
+		{
+			System.out.println("There are two real roots and they are: ");
+			System.out.println("- The first root is = " + df.format(answerOne));
+			System.out.println("- The second root is = " + df.format(answerTwo));
+		}
+		else if ((Math.pow (b,2) - (4 * a * c)) == 0 )
+		{
+			System.out.println("There is one real root therefore a straight line. Please fix your equation and reinput new values.");
+		}
+		else 
+		{
+			System.out.println("There is no real roots. Please fix your equation and reinput new values.");
+		}
 	}
-
 }
+
+
