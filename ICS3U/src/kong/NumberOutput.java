@@ -2,7 +2,7 @@ package kong;
 
 public class NumberOutput {
 /* NumberOutput
- * The program outputs differnt numbers and strings
+ * The program outputs different numbers and strings
  * 7/3/16
  * Dillon Kong
  */
