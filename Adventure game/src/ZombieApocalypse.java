@@ -332,7 +332,8 @@ public class ZombieApocalypse{
 								c.drawImage(picDarkRoom, 100, 100, 750, 750, null);
 								horrorSound.start();
 								
-								if (answer1.equals ("no")){
+								if (answer1.equals ("no"))
+								{
 									c.println("he attacks you. You die!");
 									zombie1.start();
 									c.drawImage(picGameOver, 100, 100, 750, 750, null);
