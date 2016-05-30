@@ -3,44 +3,34 @@ package kong;
 import java.util.Scanner;
 
 public class FunWithMathTwo {
-	
-	public static  int numOne = 0, numTwo = 0, total = 0;
-	static Scanner scan = new Scanner (System.in);
 
 	public static void main(String[] args) {
-
-		getNumbers();
-		add();
-		System.out.println(total);
-		subtract();
-		System.out.println(total);
-		multiply();
-		System.out.println(total);
-		divide();
-		System.out.println(total);
-	}
-
-	public static void getNumbers(){
+		int numOne = 0, numTwo = 0;
+		@SuppressWarnings("resource")
+		Scanner scan = new Scanner (System.in);
 		System.out.println("What's the first number?");
 		numOne = scan.nextInt();
 		System.out.println("What's the second number?");
 		numTwo = scan.nextInt();
+		System.out.println(add(numOne, numTwo));
+		System.out.println(subtract(numOne, numTwo));
+		System.out.println( multiply(numOne, numTwo));
+		System.out.println( divide(numOne, numTwo));
 	}
 
-	public static void add(){
-		total = numOne + numTwo;
-		
+	public static int add (int numOne, int numTwo){
+		return (numOne + numTwo);
 	}
 
-	public static void subtract(){
-		total = numOne - numTwo;
+	public static int subtract(int numOne, int numTwo){
+		return (numOne - numTwo);
 	}
 
-	public static void multiply(){
-		total = numOne * numTwo;
+	public static int multiply(int numOne, int numTwo){
+		return (numOne * numTwo);
 	}
 
-	public static void divide(){
-		total = numOne / numTwo;
+	public static int divide(int numOne, int numTwo){
+		return (numOne / numTwo);
 	}
 }
