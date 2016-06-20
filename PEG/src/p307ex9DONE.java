@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p307ex9 {
+public class p307ex9DONE {
 
 	public static void main(String[] args) {
 

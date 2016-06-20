@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p79ex5 {
+public class p79ex5DONE {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")

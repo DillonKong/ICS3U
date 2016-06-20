@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p100ex4 {
+public class p100ex4DONE {
 
 	public static void main(String[] args) {
 		@SuppressWarnings({ "resource" })

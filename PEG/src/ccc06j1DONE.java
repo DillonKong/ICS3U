@@ -1,7 +1,7 @@
 //Done
 import java.util.Scanner;
 
-public class ccc06j1 {
+public class ccc06j1DONE {
 
 	public static void main(String[] args) {
 		@SuppressWarnings({ "resource" })

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ThreeNPlusOne {
+public class ThreeNPlusOneDONE {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")

@@ -6,16 +6,14 @@ public class p299ex3 {
 		
 		@SuppressWarnings("resource")
 		Scanner scan = new Scanner (System.in);
-		int x = scan.nextInt();
-		String [] letters = new String [x];
+		int t = scan.nextInt();
+		String [] letters = new String [t];
 		
-		for (int i = 0; i <= x; i ++)
+		for (int i = 0; i < t + 1; i ++)
 			letters [i] = scan.nextLine();
 		
-		for (int i = 0; i <= x; i++){
-			letters[1].toUpperCase();
-			System.out.println(letters [i]);
+		for (int x = 0; x < t + 1; x++){
+			System.out.println(letters [x].toLowerCase());
 		}
 	}
-
 }

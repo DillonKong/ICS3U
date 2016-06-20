@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class P118EX4 {
+public class ccc01j1 {
 
 	public static void main(String[] args) {
-		@SuppressWarnings("resource")
+		// Dressing Up
 		Scanner scan = new Scanner (System.in);
 		int t = scan.nextInt();
-
-		for (int i = 1; i <= t; i ++)
+		
+		for (int i = 0; i < ((t/2) - 1); i ++)
 		{
-			System.out.println(t + " X " + i + " = " + (t * i));
+			System.out.println("*");
 		}
 	}
-
 }
-//DONE
+
+

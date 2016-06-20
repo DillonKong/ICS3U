@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class aplusb {
+public class aplusbDONE {
 
 	public static void main(String[] args) {
 		

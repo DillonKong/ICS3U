@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class acmtryouts1a {
+public class acmtryouts1aDONE {
 
 	public static void main(String[] args) {
 
